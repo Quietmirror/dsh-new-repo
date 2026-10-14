@@ -1,0 +1,35 @@
+{
+ "slicer": "PrusaSlicer-2.7.2+UNKNOWN based on Slic3r (with GUI support)",
+ "profile": "cad/prusa_v01.ini",
+ "info": {
+  "size_x": "62.022278",
+  "size_y": "90.018553",
+  "size_z": "31.000477",
+  "min_x": "-29.698261",
+  "min_y": "-0.019239",
+  "min_z": "0.000000",
+  "max_x": "32.324017",
+  "max_y": "89.999313",
+  "max_z": "31.000477",
+  "number_of_facets": "319780",
+  "manifold": "yes",
+  "number_of_parts": " 1",
+  "volume": "21052.451172"
+ },
+ "with_supports": {
+  "filament used [mm]": "12502.95",
+  "filament used [cm3]": "30.07",
+  "filament used [g]": "37.29",
+  "total filament used [g]": "37.29",
+  "estimated printing time (normal mode)": "4h 6m 9s",
+  "layers": 155
+ },
+ "no_supports": {
+  "filament used [mm]": "8438.68",
+  "filament used [cm3]": "20.30",
+  "filament used [g]": "25.17",
+  "total filament used [g]": "25.17",
+  "estimated printing time (normal mode)": "2h 34m 43s",
+  "layers": 155
+ }
+}

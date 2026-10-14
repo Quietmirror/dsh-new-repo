@@ -1,0 +1,23 @@
+{
+ "support_extrusion_points": 221501,
+ "outside_outer_skin_points_all": 9625,
+ "outside_skin_contact_points": 2,
+ "outside_bbox": [
+  [
+   -27.1,
+   17.8,
+   4.6
+  ],
+  [
+   -25.3,
+   26.7,
+   5.8
+  ]
+ ],
+ "outside_by_region": {
+  "x-30 y10 z0": 1,
+  "x-30 y20 z5": 1
+ },
+ "inside_points": 211876,
+ "interface_points_total": 2638
+}

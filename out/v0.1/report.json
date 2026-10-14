@@ -1,0 +1,1083 @@
+{
+ "params_file": "params_resolved.json",
+ "calibration": [
+  {
+   "iter": 0,
+   "y0": 0.0,
+   "y1": 90.0,
+   "half_width": 28.0,
+   "right_flare": 4.5,
+   "length_Y": 89.58184776306153,
+   "width_X_max": 61.96779098510742,
+   "height_Z_max": 30.998999023437502,
+   "grip_width_thumb_to_ring": 53.74918756185538
+  },
+  {
+   "iter": 1,
+   "y0": -0.41773109436035183,
+   "y1": 90.00042114257812,
+   "half_width": 28.12540621907231,
+   "right_flare": 4.281396576747959,
+   "length_Y": 89.92479133605957,
+   "width_X_max": 62.00850868225098,
+   "height_Z_max": 30.998999023437502,
+   "grip_width_thumb_to_ring": 53.99314174932585
+  },
+  {
+   "iter": 2,
+   "y0": -0.49309844970703187,
+   "y1": 90.00026245117186,
+   "half_width": 28.128835344409385,
+   "right_flare": 4.266029643822833,
+   "length_Y": 89.98243465423585,
+   "width_X_max": 61.99894905090333,
+   "height_Z_max": 30.998999023437502,
+   "grip_width_thumb_to_ring": 53.998845282870576
+  },
+  {
+   "iter": 3,
+   "y0": -0.5106637954711921,
+   "y1": 90.00026245117186,
+   "half_width": 28.129412702974097,
+   "right_flare": 4.2659258757900815,
+   "length_Y": 89.99676666259765,
+   "width_X_max": 62.00008735656738,
+   "height_Z_max": 30.998999023437502,
+   "grip_width_thumb_to_ring": 53.999730769543646
+  }
+ ],
+ "measured": {
+  "length_Y": 90.01812496185303,
+  "width_X_max": 62.022837448120114,
+  "height_Z_max": 30.99997253417969,
+  "bounds": [
+   [
+    -29.698802002650513,
+    -0.019125938415527344,
+    0.0
+   ],
+   [
+    32.324035445469605,
+    89.9989990234375,
+    30.99997253417969
+   ]
+  ],
+  "skin_width_without_side_buttons": 60.641809463500984,
+  "skin_x_min": -28.189484223109496,
+  "skin_x_max": 32.45232524039149,
+  "skin_y_min": -0.10122718811035147,
+  "skin_y_max": 89.99900512695314,
+  "thumb_contact_point": [
+   -26.58734608509381,
+   54.0,
+   10.5
+  ],
+  "ring_contact_point": [
+   27.409344284664854,
+   66.0,
+   12.0
+  ],
+  "grip_width_thumb_to_ring": 53.99669036975867
+ },
+ "decimation": {
+  "self_intersections_per_pass_float32": [
+   12,
+   0
+  ],
+  "repaired_locations_xyz": [
+   [
+    -23.0,
+    83.9,
+    6.2
+   ],
+   [
+    -11.9,
+    79.5,
+    12.4
+   ],
+   [
+    -16.1,
+    77.9,
+    6.0
+   ],
+   [
+    23.6,
+    83.2,
+    6.6
+   ],
+   [
+    12.1,
+    77.5,
+    17.0
+   ],
+   [
+    16.1,
+    77.9,
+    8.4
+   ]
+  ],
+  "hausdorff_to_raw_marching_cubes": {
+   "max_mm": 0.06902758032083511,
+   "mean_mm": 0.00042525788012426347,
+   "rms_mm": 0.0011938638053834438
+  }
+ },
+ "mesh_checks": {
+  "faces": 319780,
+  "vertices": 159856,
+  "watertight": true,
+  "winding_consistent": true,
+  "bodies": 1,
+  "boundary_edges": 0,
+  "non_manifold_edges": 0,
+  "degenerate_faces": 0,
+  "euler_number": -34,
+  "volume_mm3": 21052.708123694843,
+  "area_mm2": 22265.09455580105,
+  "bounds": [
+   [
+    -29.698259353637695,
+    -0.019237129017710686,
+    0.0
+   ],
+   [
+    32.32401657104492,
+    89.99931335449219,
+    31.000476837158203
+   ]
+  ],
+  "self_intersecting_faces": 0,
+  "manifold3d_status": "Error.NoError",
+  "manifold3d_volume_mm3": 21052.70812369484
+ },
+ "mesh_checks_3mf": {
+  "watertight": true,
+  "bodies": 1,
+  "self_intersecting_faces": 0,
+  "faces": 319780
+ },
+ "mesh_checks_raw_marching_cubes": {
+  "faces": 1431776,
+  "watertight": true,
+  "bodies": 1,
+  "non_manifold_edges": 0,
+  "volume_mm3": 21053.266639887548,
+  "self_intersecting_faces": 0
+ },
+ "skeleton_without_placeholders": {
+  "volume_mm3": 17601.655152586496,
+  "watertight": true,
+  "bodies": 1
+ },
+ "pads": {
+  "RC": {
+   "center_xy": [
+    0.0,
+    5.78
+   ],
+   "bottom_face_area_mm2_within_pad": 50.98128668311816,
+   "z_min": 0.0,
+   "z_max": 0.0011258125305175781,
+   "skate_7.5mm_disc_fully_supported": true
+  },
+  "RL": {
+   "center_xy": [
+    -19.98,
+    23.4
+   ],
+   "bottom_face_area_mm2_within_pad": 50.889769350990136,
+   "z_min": 0.0,
+   "z_max": 0.002619457198306918,
+   "skate_7.5mm_disc_fully_supported": true
+  },
+  "RR": {
+   "center_xy": [
+    23.47,
+    23.4
+   ],
+   "bottom_face_area_mm2_within_pad": 52.166554542774975,
+   "z_min": 0.0,
+   "z_max": 0.0,
+   "skate_7.5mm_disc_fully_supported": true
+  },
+  "FL": {
+   "center_xy": [
+    -19.44,
+    78.75
+   ],
+   "bottom_face_area_mm2_within_pad": 52.3568737757232,
+   "z_min": 0.0,
+   "z_max": 0.0026532174088060856,
+   "skate_7.5mm_disc_fully_supported": true
+  },
+  "FR": {
+   "center_xy": [
+    19.44,
+    78.75
+   ],
+   "bottom_face_area_mm2_within_pad": 51.627440043524985,
+   "z_min": 0.0,
+   "z_max": 0.0,
+   "skate_7.5mm_disc_fully_supported": true
+  },
+  "coplanarity_max_dev_mm": 0.0026532174088060856,
+  "global_min_z": 0.0,
+  "pad_plane_z": 0.0
+ },
+ "wheel_placeholder": {
+  "center": [
+   0.0,
+   75.5,
+   18.112796308770353
+  ],
+  "gap_to_shell_mm": 1.1929282199337194,
+  "top_surface_z_at_wheel": 25.51279630877035,
+  "wheel_top_z": 28.112796308770353
+ },
+ "keepout": {
+  "lmb_dish": {
+   "samples": 9399,
+   "min_dist_to_window_mm": 10.48243522644055,
+   "min_dist_to_wheel_opening_mm": 1.7295472621921488,
+   "ok": true
+  },
+  "rmb_dish": {
+   "samples": 10913,
+   "min_dist_to_window_mm": 3.7090799808497916,
+   "min_dist_to_wheel_opening_mm": 1.8704526424402343,
+   "ok": true
+  },
+  "thumb_groove": {
+   "samples": 15522,
+   "min_dist_to_window_mm": 4.273192882537813,
+   "min_dist_to_wheel_opening_mm": 22.488286445201165,
+   "ok": true
+  },
+  "ring_rest": {
+   "samples": 13709,
+   "min_dist_to_window_mm": 14.604437194763786,
+   "min_dist_to_wheel_opening_mm": 19.070451736449385,
+   "ok": true
+  },
+  "pinky_lip": {
+   "samples": 13087,
+   "min_dist_to_window_mm": 6.880178451538062,
+   "min_dist_to_wheel_opening_mm": 22.974108043591578,
+   "ok": true
+  },
+  "boss_SB_front": {
+   "samples": 6234,
+   "min_dist_to_window_mm": 14.14928079861427,
+   "min_dist_to_wheel_opening_mm": 18.92954826354994,
+   "ok": true
+  },
+  "boss_SB_rear": {
+   "samples": 6402,
+   "min_dist_to_window_mm": 4.464759826660135,
+   "min_dist_to_wheel_opening_mm": 25.759749931327065,
+   "ok": true
+  }
+ },
+ "overhang": {
+  "overhang_limit_deg_from_vertical": 45.0,
+  "excluded": "faces below Z=0.8 (first layers and the 0.6 mm 45-deg bottom chamfer)",
+  "overhang_area_mm2": 2801.234467650937,
+  "bed_contact_area_mm2": 1579.636779396913,
+  "overhang_z_range": [
+   1.1195495923360188,
+   29.37138557434082
+  ],
+  "overhang_area_by_z_band_mm2": {
+   "0-5": 0.7721946799922156,
+   "5-10": 2.116927918917445,
+   "10-15": 84.45817783337577,
+   "15-20": 320.1528752326469,
+   "20-25": 999.7132695404996,
+   "25-30": 1394.021022445505,
+   "30-35": 0.0
+  }
+ },
+ "side_buttons": [
+  {
+   "name": "SB_front",
+   "surface_point": [
+    -27.760891159750773,
+    61.5,
+    20.5
+   ],
+   "normal": [
+    -0.9751542912614821,
+    0.059951133140606995,
+    0.21326033355847893
+   ]
+  },
+  {
+   "name": "SB_rear",
+   "surface_point": [
+    -27.50407315089796,
+    43.0,
+    20.5
+   ],
+   "normal": [
+    -0.9608207896953641,
+    -0.0956547303809617,
+    0.26014146660023707
+   ]
+  }
+ ],
+ "pad_positions": {
+  "RC": [
+   0.0,
+   5.78
+  ],
+  "RL": [
+   -19.98,
+   23.400000000000002
+  ],
+  "RR": [
+   23.47,
+   23.400000000000002
+  ],
+  "FL": [
+   -19.44,
+   78.75
+  ],
+  "FR": [
+   19.44,
+   78.75
+  ]
+ },
+ "rib_segments": [
+  [
+   [
+    0.0,
+    5.78
+   ],
+   [
+    0.0,
+    30.0
+   ]
+  ],
+  [
+   [
+    0.0,
+    60.0
+   ],
+   [
+    0.0,
+    78.75
+   ]
+  ],
+  [
+   [
+    -19.98,
+    23.400000000000002
+   ],
+   [
+    -12.0,
+    31.0
+   ]
+  ],
+  [
+   [
+    23.47,
+    23.400000000000002
+   ],
+   [
+    12.0,
+    31.0
+   ]
+  ],
+  [
+   [
+    -19.44,
+    78.75
+   ],
+   [
+    -12.0,
+    59.0
+   ]
+  ],
+  [
+   [
+    19.44,
+    78.75
+   ],
+   [
+    12.0,
+    59.0
+   ]
+  ],
+  [
+   [
+    -19.44,
+    78.75
+   ],
+   [
+    19.44,
+    78.75
+   ]
+  ],
+  [
+   [
+    -13.0,
+    45.0
+   ],
+   [
+    -45.0,
+    45.0
+   ]
+  ],
+  [
+   [
+    13.0,
+    45.0
+   ],
+   [
+    45.0,
+    45.0
+   ]
+  ]
+ ],
+ "volume_breakdown_mm3_voxel_estimate": {
+  "shell_with_windows_and_side_bosses": 13450.752000000004,
+  "bottom_perimeter_flange": 1733.8960000000004,
+  "ribs_sensor_frame_pads": 2410.7040000000006,
+  "v01_placeholders_wheel_and_posts": 3444.824000000001
+ },
+ "mass_solid_g": {
+  "PLA": 26.11,
+  "PETG": 26.74
+ },
+ "thickness": {
+  "method": "inward-normal ray through the SDF (trilinear, sub-voxel), voxel 0.20 mm",
+  "design_wall_mm": 1.7,
+  "shell_wall_excluding_window_edges": {
+   "n": 72154,
+   "min": 1.3975635888810098,
+   "p1": 1.6921681047855581,
+   "p5": 1.6961737827809242,
+   "median": 1.6996504766722769
+  },
+  "rounded_window_and_wheel_edges": {
+   "n": 13014,
+   "min": 0.9465266789350018,
+   "p1": 1.2517558554108483,
+   "p5": 1.4973711453320004,
+   "median": 1.6977851448400325
+  },
+  "thin_spots_below_1.4mm_excluding_edges": [
+   {
+    "vertices": 1,
+    "min_mm": 1.3975635888810098,
+    "at_xyz": [
+     16.0,
+     7.0,
+     12.0
+    ]
+   }
+  ]
+ },
+ "main_board_keepin": {
+  "z_range": [
+   3.0,
+   7.6
+  ],
+  "outline_bbox": [
+   [
+    -25.63,
+    3.7
+   ],
+   [
+    26.17,
+    87.9
+   ]
+  ],
+  "area_mm2": 3898.8000000000006
+ },
+ "electronics": {
+  "z_chain": {
+   "mousepad_surface_z": -0.65,
+   "lens_reference_plane_z": 1.75,
+   "pcb_bottom_z": 3.0,
+   "pcb_top_z": 4.6
+  },
+  "envelopes": {
+   "lens_courtyard": {
+    "group": "sensor",
+    "source": "M: paw3395-pcb PAW3395.kicad_mod B.CrtYd, relative to optical centre",
+    "bbox_min": [
+     -9.5,
+     33.98,
+     1.75
+    ],
+    "bbox_max": [
+     9.5,
+     55.73,
+     3.0
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 1.029547318201665,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 1.75,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "sensor_PAW3950_body": {
+    "group": "sensor",
+    "source": "E: PAW3950 package envelope, replace with datasheet outline",
+    "bbox_min": [
+     -6.25,
+     36.0,
+     4.6
+    ],
+    "bbox_max": [
+     6.25,
+     54.0,
+     9.1
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 3.5000000000000355,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 4.6,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "ref_paw3395_breakout_pcb": {
+    "group": "sensor",
+    "source": "M: paw3395-pcb Edge.Cuts 15.45x28.0, optical centre 4.6 mm off board centre",
+    "bbox_min": [
+     -7.72,
+     35.6,
+     3.0
+    ],
+    "bbox_max": [
+     7.72,
+     63.6,
+     4.6
+    ],
+    "overlap_with_skeleton_mm3": 0.9600000000000002,
+    "max_penetration_mm": 0.09999999999999992,
+    "min_clearance_to_skeleton_mm": -0.09999999999999992,
+    "volume_outside_skin_mm3": 0.0,
+    "overlap_region_bbox": [
+     [
+      -1.5,
+      58.6,
+      3.1
+     ],
+     [
+      1.5,
+      60.2,
+      3.1
+     ]
+    ],
+    "min_z": 3.0,
+    "below_ground_clearance": false,
+    "status": "CONTACT(<=0.3mm, resting/fillet)"
+   },
+   "sensor_optical_axis": {
+    "group": "sensor",
+    "source": "axis marker (vertical, perpendicular to the pad)",
+    "bbox_min": [
+     -0.3,
+     44.7,
+     -0.65
+    ],
+    "bbox_max": [
+     0.3,
+     45.3,
+     12.0
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 10.229547318201796,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": -0.6500000000000004,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "switch_LMB": {
+    "group": "switch",
+    "source": "B: olliebella BOM Kailh CMI627301D07 6x6x7.3",
+    "bbox_min": [
+     -17.0,
+     74.0,
+     4.6
+    ],
+    "bbox_max": [
+     -11.0,
+     80.0,
+     11.9
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 1.5000000000000002,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 4.6,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "switch_RMB": {
+    "group": "switch",
+    "source": "B: olliebella BOM Kailh CMI627301D07 6x6x7.3",
+    "bbox_min": [
+     11.0,
+     75.5,
+     4.6
+    ],
+    "bbox_max": [
+     17.0,
+     81.5,
+     11.9
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 1.3875000000000002,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 4.6,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "wheel": {
+    "group": "wheel",
+    "source": "E: same as V0.1 dummy wheel (D20 x 7)",
+    "bbox_min": [
+     -3.5,
+     65.5,
+     8.11
+    ],
+    "bbox_max": [
+     3.5,
+     85.5,
+     28.11
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 0.7954046506817101,
+    "volume_outside_skin_mm3": 202.43200000000004,
+    "min_z": 8.112796308770353,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "wheel_axle": {
+    "group": "wheel",
+    "source": "E: axle diameter / length",
+    "bbox_min": [
+     -11.5,
+     74.5,
+     17.11
+    ],
+    "bbox_max": [
+     7.5,
+     76.5,
+     19.11
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 3.085101842880249,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 17.112796308770353,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "encoder": {
+    "group": "wheel",
+    "source": "E: vertical encoder body; olliebella uses ALPS EC05E1220401 - check datasheet",
+    "bbox_min": [
+     -11.0,
+     69.25,
+     4.6
+    ],
+    "bbox_max": [
+     -4.5,
+     81.75,
+     24.36
+    ],
+    "overlap_with_skeleton_mm3": 70.91200000000002,
+    "max_penetration_mm": 0.84978848695755,
+    "min_clearance_to_skeleton_mm": -0.84978848695755,
+    "volume_outside_skin_mm3": 16.928000000000004,
+    "overlap_region_bbox": [
+     [
+      -10.9,
+      71.4,
+      21.1
+     ],
+     [
+      -4.9,
+      81.6,
+      24.3
+     ]
+    ],
+    "min_z": 4.599999999999998,
+    "below_ground_clearance": false,
+    "status": "INTERFERENCE"
+   },
+   "switch_MMB": {
+    "group": "switch",
+    "source": "E: middle-click switch",
+    "bbox_min": [
+     -3.0,
+     61.0,
+     4.6
+    ],
+    "bbox_max": [
+     3.0,
+     67.0,
+     9.6
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 1.5000000000000002,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 4.6,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "switch_SB_front": {
+    "group": "switch",
+    "source": "E: generic 6x6 tact; replace with chosen side switch",
+    "bbox_min": [
+     -26.43,
+     58.11,
+     16.14
+    ],
+    "bbox_max": [
+     -20.61,
+     64.37,
+     23.01
+    ],
+    "overlap_with_skeleton_mm3": 0.12800000000000003,
+    "max_penetration_mm": 0.13008415699005127,
+    "min_clearance_to_skeleton_mm": -0.13008415699005127,
+    "volume_outside_skin_mm3": 0.0,
+    "overlap_region_bbox": [
+     [
+      -24.9,
+      61.8,
+      22.5
+     ],
+     [
+      -24.7,
+      64.2,
+      22.9
+     ]
+    ],
+    "min_z": 16.136061390016863,
+    "below_ground_clearance": false,
+    "status": "CONTACT(<=0.3mm, resting/fillet)"
+   },
+   "switch_SB_rear": {
+    "group": "switch",
+    "source": "E: generic 6x6 tact; replace with chosen side switch",
+    "bbox_min": [
+     -26.45,
+     40.21,
+     15.85
+    ],
+    "bbox_max": [
+     -20.2,
+     46.62,
+     22.89
+    ],
+    "overlap_with_skeleton_mm3": 0.024000000000000007,
+    "max_penetration_mm": 0.08175134658813477,
+    "min_clearance_to_skeleton_mm": -0.08175134658813477,
+    "volume_outside_skin_mm3": 0.0,
+    "overlap_region_bbox": [
+     [
+      -24.3,
+      40.4,
+      22.7
+     ],
+     [
+      -24.3,
+      40.8,
+      22.7
+     ]
+    ],
+    "min_z": 15.848631730538685,
+    "below_ground_clearance": false,
+    "status": "CONTACT(<=0.3mm, resting/fillet)"
+   },
+   "side_button_pcb": {
+    "group": "board",
+    "source": "E: two-switch side PCB",
+    "bbox_min": [
+     -22.23,
+     35.36,
+     13.7
+    ],
+    "bbox_max": [
+     -18.27,
+     69.41,
+     23.69
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 0.5302081108093262,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 13.701488056606394,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "battery_301230": {
+    "group": "battery",
+    "source": "B: olliebella BOM 301230 LiPo (TxWxL naming)",
+    "bbox_min": [
+     -15.0,
+     16.0,
+     3.5
+    ],
+    "bbox_max": [
+     15.0,
+     28.0,
+     6.5
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 0.6818222159777422,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 3.5,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "battery_plug": {
+    "group": "battery",
+    "source": "E: PH2.0 2P (olliebella CAD lists PH2.0 2P socket)",
+    "bbox_min": [
+     6.0,
+     28.5,
+     4.6
+    ],
+    "bbox_max": [
+     12.0,
+     33.0,
+     10.6
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 1.5000000000000002,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 4.6,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "usb_c_receptacle": {
+    "group": "usb",
+    "source": "S/E: mid-mount Type-C receptacle typical body",
+    "bbox_min": [
+     -4.47,
+     82.35,
+     3.6
+    ],
+    "bbox_max": [
+     4.47,
+     89.7,
+     6.86
+    ],
+    "overlap_with_skeleton_mm3": 15.136000000000003,
+    "max_penetration_mm": 0.731044515066575,
+    "min_clearance_to_skeleton_mm": -0.731044515066575,
+    "volume_outside_skin_mm3": 0.0,
+    "overlap_region_bbox": [
+     [
+      -4.3,
+      88.2,
+      3.7
+     ],
+     [
+      4.3,
+      89.6,
+      4.9
+     ]
+    ],
+    "min_z": 3.5999999999999996,
+    "below_ground_clearance": false,
+    "status": "NEEDS_SHELL_CUTOUT"
+   },
+   "usb_c_plug_overmold_clearance": {
+    "group": "usb",
+    "source": "E: cable overmold clearance in front of the face",
+    "bbox_min": [
+     -6.2,
+     90.6,
+     1.93
+    ],
+    "bbox_max": [
+     6.2,
+     105.6,
+     8.53
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 0.600994884967804,
+    "volume_outside_skin_mm3": 212.78400000000005,
+    "min_z": 1.9299999999999997,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "power_switch": {
+    "group": "power",
+    "source": "E: MSK-12C02 / MSK-1153 slide switch incl. lever travel",
+    "bbox_min": [
+     -21.5,
+     34.0,
+     -0.5
+    ],
+    "bbox_max": [
+     -12.5,
+     38.0,
+     3.0
+    ],
+    "overlap_with_skeleton_mm3": 7.200000000000002,
+    "max_penetration_mm": 0.47045268179802235,
+    "min_clearance_to_skeleton_mm": -0.47045268179802235,
+    "volume_outside_skin_mm3": 0.0,
+    "overlap_region_bbox": [
+     [
+      -12.9,
+      34.0,
+      0.1
+     ],
+     [
+      -12.5,
+      37.8,
+      2.9
+     ]
+    ],
+    "min_z": -0.5,
+    "below_ground_clearance": true,
+    "status": "INTERFERENCE+BELOW_0.5mm"
+   },
+   "antenna_keepout_2G4": {
+    "group": "antenna",
+    "source": "E: 2.4 GHz PCB antenna + clearance, position depends on board design",
+    "bbox_min": [
+     14.0,
+     53.0,
+     3.0
+    ],
+    "bbox_max": [
+     22.0,
+     71.0,
+     12.0
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 0.10000000000000009,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 3.0,
+    "below_ground_clearance": false,
+    "status": "ok (only plastic inside; keep metal, battery and wires out)"
+   },
+   "wire_side_buttons": {
+    "group": "wire",
+    "source": "E: 2-3 x 28-30 AWG silicone",
+    "bbox_min": [
+     -18.61,
+     51.43,
+     4.8
+    ],
+    "bbox_max": [
+     -11.0,
+     53.43,
+     24.2
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 1.9000000000000004,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 4.8,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "wire_battery": {
+    "group": "wire",
+    "source": "E: 2-3 x 28-30 AWG silicone",
+    "bbox_min": [
+     8.0,
+     27.0,
+     4.0
+    ],
+    "bbox_max": [
+     13.0,
+     29.5,
+     8.6
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 1.1000000000000005,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 4.0,
+    "below_ground_clearance": false,
+    "status": "ok"
+   },
+   "battery_602030": {
+    "group": "battery",
+    "source": "E: larger 602030 option (TxWxL naming)",
+    "bbox_min": [
+     -15.0,
+     11.0,
+     3.5
+    ],
+    "bbox_max": [
+     15.0,
+     31.0,
+     9.5
+    ],
+    "overlap_with_skeleton_mm3": 0.0,
+    "max_penetration_mm": 0.0,
+    "min_clearance_to_skeleton_mm": 0.5000000000000002,
+    "volume_outside_skin_mm3": 0.0,
+    "min_z": 3.5,
+    "below_ground_clearance": false,
+    "status": "ok"
+   }
+  },
+  "envelope_pair_overlaps": [
+   {
+    "a": "battery_plug",
+    "b": "battery_602030",
+    "overlap_mm3": 69.12000000000002
+   }
+  ]
+ },
+ "nurbs_skin": {
+  "file": "out/v0.1/outer_skin_nurbs_ref_v01.step",
+  "sections": 56,
+  "y_range": [
+   0.14877281188964853,
+   89.74900512695314
+  ],
+  "valid_brep": true,
+  "volume_mm3": 109793.98331896757,
+  "deviation_vs_skin": {
+   "samples": 3000,
+   "max_mm": 0.015454060532580794,
+   "p99_mm": 0.006804619629521211,
+   "mean_mm": 0.0012268921651746752,
+   "worst_at": [
+    [
+     30.9,
+     27.2,
+     0.8
+    ],
+    [
+     23.9,
+     14.8,
+     1.1
+    ],
+    [
+     -20.1,
+     74.2,
+     24.3
+    ]
+   ],
+   "note": "skin beyond the first/last section (small flat end caps) excluded"
+  }
+ }
+}

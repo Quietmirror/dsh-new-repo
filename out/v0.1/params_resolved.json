@@ -1,0 +1,547 @@
+{
+ "meta": {
+  "name": "fingertip_mouse_v01_trial_grip",
+  "version": "0.1",
+  "hand_length_mm_approx": 230,
+  "hand_span_thumb_pinky_mm_approx": 190,
+  "unmeasured": [
+   "palm width",
+   "phalanx lengths",
+   "fingertip contact positions in real grip"
+  ]
+ },
+ "size": {
+  "length": 90.0,
+  "width_max": 62.0,
+  "grip_width": 54.0,
+  "height": 31.0
+ },
+ "plan": {
+  "half_width": 28.129547318202274,
+  "left_scale": 1.0,
+  "ctrl": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.012,
+    0.36
+   ],
+   [
+    0.055,
+    0.62
+   ],
+   [
+    0.125,
+    0.79
+   ],
+   [
+    0.23,
+    0.905
+   ],
+   [
+    0.37,
+    0.975
+   ],
+   [
+    0.52,
+    1.0
+   ],
+   [
+    0.66,
+    1.0
+   ],
+   [
+    0.77,
+    0.985
+   ],
+   [
+    0.86,
+    0.94
+   ],
+   [
+    0.925,
+    0.84
+   ],
+   [
+    0.972,
+    0.62
+   ],
+   [
+    0.994,
+    0.3
+   ],
+   [
+    1.0,
+    0.0
+   ]
+  ],
+  "y0": -0.5138971328735362,
+  "y1": 90.00026245117186
+ },
+ "top": {
+  "crest": [
+   [
+    0.0,
+    0.36
+   ],
+   [
+    0.04,
+    0.48
+   ],
+   [
+    0.11,
+    0.615
+   ],
+   [
+    0.22,
+    0.765
+   ],
+   [
+    0.34,
+    0.9
+   ],
+   [
+    0.46,
+    0.98
+   ],
+   [
+    0.54,
+    1.0
+   ],
+   [
+    0.63,
+    0.98
+   ],
+   [
+    0.72,
+    0.925
+   ],
+   [
+    0.81,
+    0.85
+   ],
+   [
+    0.89,
+    0.775
+   ],
+   [
+    0.96,
+    0.72
+   ],
+   [
+    1.0,
+    0.69
+   ]
+  ],
+  "crown_drop": [
+   [
+    0.0,
+    7.0
+   ],
+   [
+    0.35,
+    5.5
+   ],
+   [
+    0.65,
+    3.6
+   ],
+   [
+    1.0,
+    3.0
+   ]
+  ],
+  "crest_x": 0.0,
+  "tilt_deg": 0.0,
+  "blend": [
+   [
+    0.0,
+    11.0
+   ],
+   [
+    0.4,
+    9.5
+   ],
+   [
+    0.8,
+    7.5
+   ],
+   [
+    1.0,
+    5.5
+   ]
+  ]
+ },
+ "contact": {
+  "lmb": {
+   "x": -14.0,
+   "y": 77.0,
+   "rx": 7.5,
+   "ry": 10.5,
+   "depth": 0.9
+  },
+  "rmb": {
+   "x": 14.0,
+   "y": 78.5,
+   "rx": 7.5,
+   "ry": 10.5,
+   "depth": 0.9
+  },
+  "thumb": {
+   "y": 54.0,
+   "z": 10.5,
+   "ay": 18.0,
+   "az": 7.5,
+   "depth": 1.6
+  },
+  "ring": {
+   "y": 66.0,
+   "z": 12.0,
+   "ay": 14.0,
+   "az": 8.0,
+   "depth": 0.5
+  }
+ },
+ "lip": {
+  "right_flare": 4.2655692887663506,
+  "right_z": 9.5,
+  "right_y0": 0.3,
+  "right_y1": 0.72,
+  "right_ramp": 0.14,
+  "left_flare": 0.0,
+  "left_z": 6.0
+ },
+ "side_buttons": [
+  {
+   "name": "SB_front",
+   "y": 61.5,
+   "z": 20.5,
+   "length": 15.5,
+   "height": 7.0,
+   "protrude": 1.6,
+   "tilt_deg": 4.0
+  },
+  {
+   "name": "SB_rear",
+   "y": 43.0,
+   "z": 20.5,
+   "length": 15.5,
+   "height": 7.0,
+   "protrude": 1.6,
+   "tilt_deg": 4.0
+  }
+ ],
+ "side_button_edge_r": 1.5,
+ "side_button_underside_deg": 58.0,
+ "wheel": {
+  "y": 75.5,
+  "opening_len": 22.0,
+  "opening_w": 9.6,
+  "opening_corner_r": 3.0,
+  "edge_round": 1.6,
+  "placeholder": true,
+  "radius": 10.0,
+  "width": 7.0,
+  "rim_r": 1.2,
+  "protrude": 2.6,
+  "grooves": 18,
+  "groove_depth": 0.45,
+  "pedestal_half_w": 3.0,
+  "pedestal_angle_deg": 50.0
+ },
+ "shell": {
+  "wall": 1.7,
+  "window_edge_round": 1.2
+ },
+ "bottom": {
+  "ring_width": 2.5,
+  "ring_height": 3.0,
+  "rib_width": 2.5,
+  "rib_height": 3.0,
+  "rib_blend": 0.8,
+  "pad_d": 8.5,
+  "pad_h": 3.0,
+  "pad_inset": 6.0,
+  "bottom_edge_chamfer": 0.6,
+  "bottom_relief": 0.0,
+  "pads": [
+   [
+    "RC",
+    null,
+    "C"
+   ],
+   [
+    "RL",
+    0.26,
+    "L"
+   ],
+   [
+    "RR",
+    0.26,
+    "R"
+   ],
+   [
+    "FL",
+    0.875,
+    "L"
+   ],
+   [
+    "FR",
+    0.875,
+    "R"
+   ]
+  ],
+  "sensor": {
+   "x": 0.0,
+   "y": 45.0,
+   "outer_x": 26.0,
+   "outer_y": 30.0,
+   "corner_r": 3.0
+  },
+  "button_posts": true,
+  "post_d": 4.5
+ },
+ "windows": [
+  {
+   "kind": "top",
+   "c": [
+    -9.5,
+    33.0
+   ],
+   "len": 30.0,
+   "wid": 8.5,
+   "ang": 90.0,
+   "r": 4.25,
+   "z_min": 14.0
+  },
+  {
+   "kind": "top",
+   "c": [
+    9.5,
+    33.0
+   ],
+   "len": 30.0,
+   "wid": 8.5,
+   "ang": 90.0,
+   "r": 4.25,
+   "z_min": 14.0
+  },
+  {
+   "kind": "top",
+   "c": [
+    0.0,
+    11.5
+   ],
+   "len": 14.0,
+   "wid": 6.5,
+   "ang": 0.0,
+   "r": 3.25,
+   "z_min": 9.0
+  },
+  {
+   "kind": "side_L",
+   "c": [
+    21.0,
+    9.0
+   ],
+   "len": 22.0,
+   "wid": 7.0,
+   "ang": 8.0,
+   "r": 3.5,
+   "lim": -8.0
+  },
+  {
+   "kind": "side_R",
+   "c": [
+    14.0,
+    10.0
+   ],
+   "len": 13.0,
+   "wid": 6.0,
+   "ang": 12.0,
+   "r": 3.0,
+   "lim": 8.0
+  },
+  {
+   "kind": "front",
+   "c": [
+    0.0,
+    7.5
+   ],
+   "len": 22.0,
+   "wid": 5.0,
+   "ang": 0.0,
+   "r": 2.5,
+   "lim": 70.0
+  }
+ ],
+ "keepout_margin": 2.0,
+ "keepout_margin_wheel": 1.5,
+ "electronics": {
+  "skate_thickness": [
+   0.65,
+   "B: olliebella README assumes ~0.65 mm dot skates; measure your dots"
+  ],
+  "lens_to_surface": [
+   2.4,
+   "B: olliebella README 'lens-to-surface ~2.4 mm (+/-0.2)' (PAW3950/3395 + LOAE-LSI1); confirm with lens datasheet"
+  ],
+  "lens_ref_to_pcb_bottom": [
+   1.25,
+   "E: unknown; chosen so the PCB bottom lands on the 3.0 mm rib top - MUST be measured"
+  ],
+  "pcb_thickness": [
+   1.6,
+   "M: paw3395-pcb KiCad (1.6 mm); donor board thickness unknown"
+  ],
+  "pcb_top_components": [
+   3.0,
+   "E: allowance for components on the main-board top side"
+  ],
+  "lens_courtyard": [
+   [
+    -9.5,
+    9.5,
+    -11.02,
+    10.73
+   ],
+   "M: paw3395-pcb PAW3395.kicad_mod B.CrtYd, relative to optical centre"
+  ],
+  "pcb_aperture": [
+   [
+    8.6,
+    17.26
+   ],
+   "M: paw3395-pcb footprint Edge.Cuts sensor aperture"
+  ],
+  "sensor_body": [
+   [
+    12.5,
+    18.0,
+    4.5
+   ],
+   "E: PAW3950 package envelope, replace with datasheet outline"
+  ],
+  "breakout_board": [
+   [
+    15.45,
+    28.0,
+    1.6,
+    4.6
+   ],
+   "M: paw3395-pcb Edge.Cuts 15.45x28.0, optical centre 4.6 mm off board centre"
+  ],
+  "main_switch": [
+   [
+    6.0,
+    6.0,
+    7.3
+   ],
+   "B: olliebella BOM Kailh CMI627301D07 6x6x7.3"
+  ],
+  "side_switch": [
+   [
+    6.0,
+    6.0,
+    4.3
+   ],
+   "E: generic 6x6 tact; replace with chosen side switch"
+  ],
+  "side_board": [
+   [
+    34.0,
+    10.0,
+    1.0
+   ],
+   "E: two-switch side PCB"
+  ],
+  "encoder": [
+   [
+    6.5,
+    12.5,
+    12.5
+   ],
+   "E: vertical encoder body; olliebella uses ALPS EC05E1220401 - check datasheet"
+  ],
+  "wheel_axle": [
+   [
+    2.0,
+    19.0
+   ],
+   "E: axle diameter / length"
+  ],
+  "mmb_switch": [
+   [
+    6.0,
+    6.0,
+    5.0
+   ],
+   "E: middle-click switch"
+  ],
+  "battery": {
+   "301230": [
+    [
+     30.0,
+     12.0,
+     3.0
+    ],
+    "B: olliebella BOM 301230 LiPo (TxWxL naming)"
+   ],
+   "602030": [
+    [
+     30.0,
+     20.0,
+     6.0
+    ],
+    "E: larger 602030 option (TxWxL naming)"
+   ]
+  },
+  "battery_plug": [
+   [
+    6.0,
+    4.5,
+    6.0
+   ],
+   "E: PH2.0 2P (olliebella CAD lists PH2.0 2P socket)"
+  ],
+  "usb_c": [
+   [
+    8.94,
+    7.35,
+    3.26
+   ],
+   "S/E: mid-mount Type-C receptacle typical body"
+  ],
+  "usb_c_plug_overmold": [
+   [
+    12.4,
+    15.0,
+    6.6
+   ],
+   "E: cable overmold clearance in front of the face"
+  ],
+  "power_switch": [
+   [
+    9.0,
+    4.0,
+    3.5
+   ],
+   "E: MSK-12C02 / MSK-1153 slide switch incl. lever travel"
+  ],
+  "antenna_keepout": [
+   [
+    8.0,
+    18.0,
+    9.0
+   ],
+   "E: 2.4 GHz PCB antenna + clearance, position depends on board design"
+  ],
+  "wire_bundle_d": [
+   2.0,
+   "E: 2-3 x 28-30 AWG silicone"
+  ],
+  "clearance": 0.5
+ }
+}
